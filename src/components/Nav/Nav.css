@@ -1,27 +1,24 @@
-a{
-    position: absolute;
-    cursor: pointer;
-    color: black;
-    /* color: #efefee; */
-    padding: 0.5rem 1rem;
-    transition: color 0.25s;
-top: 74px;
-
+a {
+  position: absolute;
+  cursor: pointer;
+  color: black;
+  padding: 0.5rem 1rem;
+  transition: color 0.25s;
+  top: 74px;
 }
-a::after{
-    position: absolute;
-    content: "";
-    inset: 0;
-    background: black;
-    scale: 1 0;
-    z-index: -1;
-    transition: 0.45s;
-    border-radius: 10px;
+a::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: black;
+  scale: 1 0;
+  z-index: -1;
+  transition: 0.45s;
+  border-radius: 10px;
 }
-a:hover{
-    color: white;
+a:hover {
+  color: white;
 }
-a:hover::after{
-    scale: 1 1;
-
+a:hover::after {
+  scale: 1 1;
 }
