@@ -10,14 +10,16 @@ a::after {
   position: absolute;
   content: "";
   inset: 0;
-  background: black;
+  /* background: black; */
+  background: white;
   scale: 1 0;
   z-index: -1;
   transition: 0.45s;
   border-radius: 10px;
 }
 a:hover {
-  color: white;
+  /* color: white; */
+  color: black;
 }
 a:hover::after {
   scale: 1 1;
