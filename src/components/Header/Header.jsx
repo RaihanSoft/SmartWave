@@ -7,7 +7,7 @@ function Header() {
         </div>
 
         <div id="item2" className="carousel-item w-full">
-          <img src="public\assets\Web-Slider-1332.webp" className="w-full" />
+          <img src="./assets\Web-Slider-1332.webp" className="w-full" />
         </div>
 
         <div id="item3" className="carousel-item w-full">
@@ -15,7 +15,7 @@ function Header() {
         </div>
 
         <div id="item4" className="carousel-item w-full">
-          <img src="public\assets\Web-Slider-1332.webp" className="w-full" />
+          <img src="./assets\Web-Slider-1332.webp" className="w-full" />
         </div>
       </div>
 
@@ -24,11 +24,11 @@ function Header() {
       <div className="xl:space-y-4 md:flex xl:flex-col gap-4 xl:gap-0 space-y-4 sm:space-y-0">
         
         <div className="xl:h-[235px] xl:w-[460px]">
-          <img className="h-full w-full" src="public\assets\Top-Banner-(1)-5483.webp" alt="" />
+          <img className="h-full w-full" src=".\assets\Top-Banner-(1)-5483.webp" alt="" />
         </div>
 
         <div className="xl:h-[235px] xl:w-[460px]">
-          <img className="h-full w-full" src="public\assets\Top-Banner-2306.webp" alt="" />
+          <img className="h-full w-full" src=".\assets\Top-Banner-2306.webp" alt="" />
         </div>
 
       </div>
