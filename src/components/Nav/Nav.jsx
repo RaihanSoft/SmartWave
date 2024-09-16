@@ -1,28 +1,32 @@
 import React from "react";
+import './Nav.css'
 
 function Nav() {
   return (
     <div>
       <section className="flex items-center justify-around shadow-lg p-3">
         {/* logo  */}
-        <div>
-        <i class="ri-menu-2-line text-xl"></i>
-        </div>
+        
+
+        <i class="ri-menu-2-line text-xl lg:hidden"></i>
+
+
         <div className="mx-auto lg:mx-0">
-          <a className="text-2xl  md:text-3xl font-bold"  href="#">
+          <h2 className="text-2xl  md:text-3xl font-bold"  href="#">
             Smart<span className="text-red-600">Wave</span>
-          </a>
+          </h2>
         </div>
+
         {/* middle  */}
         <div className="">
-            <ul className="flex space-x-10 items-center hidden lg:flex">
+            <ul className="flex space-x-24   hidden lg:flex">
                 <li><a className="font-medium hover:font-bold text-xl" href="#"><i class="ri-home-4-fill"></i></a></li>
-                <li><a className="font-medium hover:font-bold" href="#">News</a></li>
-                <li><a className="font-medium hover:font-bold" href="#">Reviews</a></li>
-                <li><a className="font-medium hover:font-bold" href="#">Best</a></li>
-                <li><a className="font-medium hover:font-bold" href="#">Accessories</a></li>
-                <li><a className="font-medium hover:font-bold" href="#">All Topic</a></li>
-                <li><a className="font-medium hover:font-bold" href="#">More</a></li>
+                <li><a className="font-medium " href="#">News</a></li>
+                <li><a className="font-medium" href="#">Reviews</a></li>
+                <li><a className="font-medium" href="#">Best</a></li>
+                <li><a className="font-medium -ml-6" href="#">Accessories</a></li>
+                <li><a className="font-medium" href="#">All Topic</a></li>
+                <li><a className="font-medium" href="#">More</a></li>
             </ul>
         </div>
 
@@ -33,7 +37,7 @@ function Nav() {
             <i class="ri-search-line text-xl"></i>
             </div>
 
-            <div className="hidden lg:flex">
+            <div className="hidden xl:flex">
                 <button className=" font-medium hover:font-bold">Best daily deals</button>
             </div>
 
