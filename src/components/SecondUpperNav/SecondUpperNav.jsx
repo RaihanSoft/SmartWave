@@ -2,7 +2,7 @@ import React from "react";
 
 function SecondUpperNav() {
   return (
-    <div className="bg-black p-1 flex justify-between xl:px-16">
+    <div className="bg-black p-1 flex justify-between xl:px-10 px-2">
 
 
         <div>

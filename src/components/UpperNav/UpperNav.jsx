@@ -4,7 +4,7 @@ function UpperNav() {
   return (
     <div>
       <section>
-        <div className="text-center font-medium  text-white p-1 bg-gradient-to-r from-gray-500 via-red-400 to-blue-400 flex  justify-between ">
+        <div className="text-center font-medium  text-white p-1 px-2 bg-gradient-to-r from-gray-500 via-red-400 to-blue-400 flex  justify-between ">
 
           <div className="">
             <marquee className='hidden lg:flex' behavior="top" direction="right">
