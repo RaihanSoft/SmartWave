@@ -4,7 +4,7 @@ import './Nav.css'
 function Nav() {
   return (
     <div>
-      <section className="flex items-center justify-between xl:px-10  shadow-lg py-3 px-2">
+      <section className="flex items-center justify-between xl:px-10 md:shadow-lg shadow-lg py-3 px-2">
         {/* logo  */}
         
 
