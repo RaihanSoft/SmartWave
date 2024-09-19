@@ -15,9 +15,8 @@ function App() {
     <Nav></Nav>
     <Header></Header>
     <Header></Header>
-
     </>
   )
 }
 
-export default App
+export default App;
