@@ -14,7 +14,6 @@ function App() {
     <SecondUpperNav></SecondUpperNav>
     <Nav></Nav>
     <Header></Header>
-    <Header></Header>
     </>
   )
 }
