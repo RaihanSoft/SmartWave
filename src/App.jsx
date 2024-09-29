@@ -12,10 +12,7 @@ function App() {
     <>
     <UpperNav></UpperNav>
     <SecondUpperNav></SecondUpperNav>
-    <SecondUpperNav></SecondUpperNav>
     <Nav></Nav>
-    <Nav></Nav>
-    <Header></Header>
     <Header></Header>
     </>
   )
